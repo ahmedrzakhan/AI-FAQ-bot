@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What is your return policy?",
+    "answer": "We offer a 30-day return policy for all items. Items must be in original condition with tags attached. Please contact customer service to initiate a return."
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 3-5 business days. Express shipping is available for 1-2 business days. International shipping takes 7-14 business days."
+  },
+  {
+    "question": "Do you offer customer support?",
+    "answer": "Yes, we provide 24/7 customer support via chat, email, and phone. Our support team is available to help with any questions or issues."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay."
+  },
+  {
+    "question": "How do I track my order?",
+    "answer": "Once your order ships, you'll receive a tracking number via email. You can also log into your account to view order status and tracking information."
+  },
+  {
+    "question": "Can I modify or cancel my order?",
+    "answer": "Orders can be modified or cancelled within 2 hours of placement. After that, the order is processed and cannot be changed. Contact customer service for assistance."
+  },
+  {
+    "question": "Do you offer warranty on products?",
+    "answer": "Yes, we offer a 1-year warranty on all electronic products and 6 months warranty on accessories. The warranty covers manufacturing defects."
+  },
+  {
+    "question": "How do I create an account?",
+    "answer": "Click on 'Sign Up' in the top right corner, fill in your email and password, verify your email address, and your account will be ready to use."
+  }
+]
