@@ -1,0 +1,20 @@
+# Google App Engine configuration for free tier deployment
+runtime: python311
+
+# Free tier specs - stays within free limits
+instance_class: F1
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1
+  target_cpu_utilization: 0.6
+
+# Environment variables (use .env file or set in GCP console)
+env_variables:
+  PYTHONPATH: /srv
+  OPENAI_API_KEY: "your_openai_api_key_here"
+  LANGCHAIN_TRACING_V2: "true"
+  LANGCHAIN_API_KEY: "your_langsmith_api_key_here"
+  LANGCHAIN_PROJECT: "faq-bot"
+
+# Entry point
+entrypoint: python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT
